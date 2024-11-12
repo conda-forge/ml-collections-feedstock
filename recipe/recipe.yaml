@@ -8,7 +8,7 @@ package:
   version: ${{ version }}
 
 source:
-  url: https://pypi.io/packages/source/${{ name[0] }}/${{ name }}/ml_collections-${{ version }}.tar.gz
+  url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/ml_collections-${{ version }}.tar.gz
   sha256: 00b11a1a339dd6c2d9b7f0daab47ab17e10e29ca1b2a656058605e2b7210897f
 
 build:
